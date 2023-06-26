@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    -webkit-filter: invert() hue-rotate(180deg) brightness(105%) contrast(105%);
+}
+
+body{
+    background-color: #67AAF9;
+    
+}
+
+.circle1{
+    position: fixed;
+    z-index: 0;
+    bottom: -1000px;
+    left: -250px;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 750px;
+    background: #2EC0F9;
+    opacity: 5%;
+}
+
+.circle2{
+    position: fixed;
+    z-index: 0;
+    bottom: -750px;
+    left: -750px;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 750px;
+    background: #2EC0F9;
+    opacity: 5%;
+}
+
+.circle3{
+    position: fixed;
+    z-index: 0;
+    top: -1250px;
+    right: -250px;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 750px;
+    background: #2EC0F9;
+    opacity: 5%;
+}
+
+.circle4{
+    position: fixed;
+    z-index: 0;
+    top: -1000px;
+    right: -750px;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 750px;
+    background: #2EC0F9;
+    opacity: 5%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 20px;
+    display: flex;
+    font-size: large;
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo_1{
+    color: white;
+    padding-right: 2.5px;
+}
+
+.logo_separ{
+    height: 23px;
+    width: 2px;
+    background-color: white;
+}
+
+.logo_2{
+    padding-left: 2.5px;
+    color: #9BBDF9;
+}
+
+.navbar ol{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.navbar ol button{
+    background-color: transparent;
+    z-index: -1;
+    padding: 10px 32px;
+    margin: 10px 25px;
+    border: solid 1px #9BBDF9;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.navbar ol button:hover{
+    z-index: 2;
+    background-color: #9BBDF9;
+    color: black;
+}
+
+.welcome_txt{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 100px;
+    padding-top: 250px;
+    text-align: center;
+
+}
+
+.button_about_me{
+    text-align: center;
+}
+
+.button_about_me button{
+    background-color: transparent;
+    z-index: -1;
+    padding: 10px 32px;
+    margin: 10px 25px;
+    border: solid 5px #9BBDF9;
+    border-radius: 150px;
+    color: #9BBDF9;
+    text-decoration: none;
+    font-size: 35px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.button_about_me button:hover{
+    z-index: 2;
+    background-color: #9BBDF9;
+    color: black;
+}
